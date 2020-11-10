@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shelter-Pets</title>
+    <link rel="stylesheet" href="../../normalize.css">
+    <link rel="stylesheet" href="../../animate.min.css">
+    <link rel="stylesheet" href="pstyle.css">
+</head>
+<body>
+<input type="checkbox" id="chkpoopap" class="chkpoopap">
+<label for="chkpoopap" class="poopapback" id="poopapback"></label>
+<div id="poopap" class="poopap">
+    <label for="chkpoopap" class="poopap__close">X</label>
+    <img id="poopapImg" data-page="pets" src="assets/images/jennifer.png" alt="animal photo" class="poopap__photo">
+    <div class="poopap__content">
+        <h3 class="pName" id="pName">Jennifer</h3>
+        <p class="pType" id="pType">Dog - Labrador</p>
+        <p class="pDescription" id="description">Jennifer is a sweet 2 months old Labrador that is patiently waiting to
+            find a new forever home. This girl really enjoys being able to go outside to run and play, but won't
+            hesitate to play up a storm in the house if she has all of her favorite toys.</p>
+        <ul class="pList">
+            <li><span class="pListTitle">Age:</span><span class="pListData" id="pAge">2 months</span></li>
+            <li><span class="pListTitle">Inoculations:</span><span class="pListData" id="pInoculations">none</span></li>
+            <li><span class="pListTitle">Diseases:</span><span class="pListData" id="pDiseases">none</span></li>
+            <li><span class="pListTitle">Parasites:</span><span class="pListData" id="pParasites">none</span></li>
+        </ul>
+    </div>
+</div>
+<div class="container">
+    <header class="header">
+
+        <a href="../../index.html" class="notonly__logo">
+            <span id="lgTitle" class="logo__title">Cozy House</span>
+            <span id="subTitle" class="logo__subtitle">Shelter for pets in Boston</span>
+        </a>
+        <nav class="notonly__menu">
+            <a href="../../index.html" class="notonly__menu__menu-item ">About the shelter</a>
+            <a href="#" class="notonly__menu__menu-item menu-item_active">Our pets</a>
+            <a href="#" class="notonly__menu__menu-item">Help the shelter</a>
+            <a href="#" class="notonly__menu__menu-item">Contacts</a>
+        </nav>
+        <div id="menuMobile" class="menu__mobile">
+            <input type="checkbox" id="chkmenu" class="chkmenu">
+            <label id="btnMenu" for="chkmenu">
+                <div class="btn-menu">
+                    <span class="bar bar1"></span>
+                    <span class="bar bar2"></span>
+                    <span class="bar bar3"></span>
+                    <span class="bar bar4"></span>
+                    <span class="bar bar5"></span>
+                </div>
+            </label>
+            <nav id="winMenu" class="notonly__menu__mobile animate__animated">
+                <a href="../../index.html" class="notonly__menu__menu-item ">About the shelter</a>
+                <a href="#" class="notonly__menu__menu-item menu-item_active">Our pets</a>
+                <a href="#" class="notonly__menu__menu-item">Help the shelter</a>
+                <a href="#" class="notonly__menu__menu-item">Contacts</a>
+            </nav>
+        </div>
+    </header>
+    <section class="content">
+        <h1 class="content__title">Our friends who are&nbsp;looking for a house</h1>
+        <div id="fullPetsSlider" class="content__wripper">
+        </div>
+        <div class="content__nav">
+            <button id="firstPage" class="content__nav__button button_inactive" >&lt;&lt;</button>
+            <button id="prevStep" class="content__nav__button button_inactive" >&lt;</button>
+            <label id="numPage" class="content__nav__position button_pink">1</label>
+            <button id="nextStep" class="content__nav__button">&gt;</button>
+            <button id="endPage" class="content__nav__button">&gt;&gt;</button>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="footer__question">
+            <h2 class="question__title">For questions and suggestions</h2>
+            <a href="mailto:email@shelter.com" class="question__email">
+                <img src="../../assets/icons/mail.svg" alt="icon mail">
+                email@shelter.com</a>
+            <a href="tel:+136745677554" class="question__phone">
+                <img src="../../assets/icons/phone.svg" alt="icon phone">
+                +13 674 567 75 54</a>
+        </div>
+        <div class="footer__waiting">
+            <h2 class="waiting__title">We are waiting for your visit</h2>
+            <a href="https://g.page/grandsavoy_mogilev?share" target="_blank" class="address">
+                <img src="../../assets/icons/pin.svg" alt="icon pin">
+                1 Central Street, Boston (entrance from the store)</a>
+            <a href="https://g.page/grandsavoy_mogilev?share" target="_blank" class="address">
+                <img src="../../assets/icons/pin.svg" alt="icon pin">
+                18 South Park, London </a>
+        </div>
+
+    </footer>
+</div>
+<script src="../../scripts/menu.js"></script>
+<script src="../../scripts/slider.js"></script>
+</body>
+</html>

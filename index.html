@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shelter</title>
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="animate.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<input type="checkbox" id="chkpoopap" class="chkpoopap">
+<label for="chkpoopap" class="poopapback" id="poopapback"></label>
+<div id="poopap" class="poopap">
+    <label for="chkpoopap" class="poopap__close">X</label>
+    <img id="poopapImg" data-page="main" src="assets/images/jennifer.png" alt="animal photo" class="poopap__photo">
+    <div class="poopap__content">
+        <h3 class="pName" id="pName">Jennifer</h3>
+        <p class="pType" id="pType">Dog - Labrador</p>
+        <p class="pDescription" id="description">Jennifer is a sweet 2 months old Labrador that is patiently waiting to
+            find a new forever home. This girl really enjoys being able to go outside to run and play, but won't
+            hesitate to play up a storm in the house if she has all of her favorite toys.</p>
+        <ul class="pList">
+            <li><span class="pListTitle">Age:</span><span class="pListData" id="pAge">2 months</span></li>
+            <li><span class="pListTitle">Inoculations:</span><span class="pListData" id="pInoculations">none</span></li>
+            <li><span class="pListTitle">Diseases:</span><span class="pListData" id="pDiseases">none</span></li>
+            <li><span class="pListTitle">Parasites:</span><span class="pListData" id="pParasites">none</span></li>
+        </ul>
+    </div>
+</div>
+<section class="notonly">
+    <div class="container notonly_backround">
+        <header class="notonly__header">
+            <a href="#" class="notonly__logo">
+                <span id="lgTitle" class="logo__title">Cozy House</span>
+                <span id="subTitle" class="logo__subtitle">Shelter for pets in Boston</span>
+            </a>
+            <nav class="notonly__menu menu__desctop">
+                <a href="#" class="notonly__menu__menu-item menu-item_active">About the shelter</a>
+                <a href="pages/pets/pets.html" class="notonly__menu__menu-item">Our pets</a>
+                <a href="#" class="notonly__menu__menu-item">Help the shelter</a>
+                <a href="#" class="notonly__menu__menu-item">Contacts</a>
+            </nav>
+            <div id="menuMobile" class="menu__mobile">
+                <input type="checkbox" id="chkmenu" class="chkmenu">
+                <label id="btnMenu" for="chkmenu">
+                    <div class="btn-menu">
+                        <span class="bar bar1"></span>
+                        <span class="bar bar2"></span>
+                        <span class="bar bar3"></span>
+                        <span class="bar bar4"></span>
+                        <span class="bar bar5"></span>
+                    </div>
+                </label>
+                <nav id="winMenu" class="notonly__menu__mobile animate__animated">
+                    <a href="#" class="notonly__menu__menu-item menu-item_active">About the shelter</a>
+                    <a href="pages/pets/pets.html" class="notonly__menu__menu-item">Our pets</a>
+                    <a href="#" class="notonly__menu__menu-item">Help the shelter</a>
+                    <a href="#" class="notonly__menu__menu-item">Contacts</a>
+                </nav>
+            </div>
+        </header>
+        <div class="notonly__wrapper">
+            <h1 class="notonly__title">Not only people need a house</h1>
+            <p class="notonly__text">We offer to give a chance to a little and nice puppy with an extremely wide and
+                open heart. He or she will love you more than anybody else in the world, you will see!</p>
+            <a href="pages/pets/pets.html" class="button">Make a friend</a>
+        </div>
+    </div>
+</section>
+<section class="about">
+    <div class="container about_style">
+        <img src="assets/images/about-pets.png" alt="about photo" class="about__img">
+        <div class="about__wrapper">
+            <h2 class="aboute__title">About the shelter “Cozy House”</h2>
+            <p class="about__text">Currently we have 121 dogs and 342 cats on our hands and statistics show that only
+                20% of them will find a family. The others will continue to live with us and will be waiting for a lucky
+                chance to become dearly loved.</p>
+            <p class="about__text">We feed our wards with the best food and make sure that they do not get sick, feel
+                comfortable (including psychologically) and well. We are supported by 87 volunteers and 28 employees of
+                various skill levels. About 12% of the animals are taken by the shelter staff. Taking care of the
+                animals, they become attached to the pets and would hardly ever leave them alone.</p>
+        </div>
+    </div>
+</section>
+<section class="ourfriends">
+    <div class="container ourfriends__style">
+        <h2 class="ourfriends__title">Our friends who
+            are&nbsp;looking&nbsp;for a house</h2>
+        <div class="ourfriends__slider">
+            <div id="arrowLeft" class="arrow arrow_left"></div>
+            <div class="slider__wrapper">
+                <div data-number="0" class="slider__product animate__animated ">
+                    <img src="assets/images/katrine.png" alt="photo position" class="slider__product__img">
+                    <h3 class="slider__product__name">Katrine</h3>
+                    <a href="#"  class="button slider__product__btn">Learn more</a></div>
+                <div data-number="1" class="slider__product animate__animated ">
+                    <img src="assets/images/jennifer.png" alt="photo position" class="slider__product__img">
+                    <h3 class="slider__product__name">Jennifer</h3>
+                    <a href="#" class="button slider__product__btn">Learn more</a></div>
+                <div data-number="2" class="slider__product animate__animated ">
+                    <img src="assets/images/woody.png" alt="photo position" class="slider__product__img">
+                    <h3 class="slider__product__name">Woody</h3>
+                    <a href="#" class="button slider__product__btn">Learn more</a></div>
+            </div>
+            <div id="arrowRight" class="arrow arrow_right"></div>
+        </div>
+        <a href="pages/pets/pets.html" class="button ourfriends__btn">Get to know the rest</a>
+    </div>
+</section>
+<section class="howyou">
+    <div class="container howyou__style">
+        <h2 class="howyou__title">How you can help our shelter</h2>
+        <div class="howyou__category">
+            <div class="first-line">
+                <a href="#" class="howyou__category__position img_food">
+                    <h3 class="category__name">Pet food</h3>
+                </a>
+                <a href="#" class="howyou__category__position img_transp">
+                    <h3 class="category__name">Transportation</h3>
+                </a>
+                <a href="#" class="howyou__category__position img_toys">
+                    <h3 class="category__name">Toys</h3>
+                </a>
+                <a href="#" class="howyou__category__position img_bowls">
+                    <h3 class="category__name">Bowls and cups</h3>
+                </a>
+                <a href="#" class="howyou__category__position img_shampoo">
+                    <h3 class="category__name">Shampoos</h3>
+                </a>
+            </div>
+            <div class="second-line">
+                <a href="#" class="howyou__category__position img_vitamin">
+                    <h3 class="category__name">Vitamins</h3>
+                </a>
+                <a href="#" class="howyou__category__position img_medicin">
+                    <h3 class="category__name">Medicines</h3>
+                </a>
+                <a href="#" class="howyou__category__position img_collars">
+                    <h3 class="category__name">Collars / leashes</h3>
+                </a>
+                <a href="#" class="howyou__category__position img_sleeping">
+                    <h3 class="category__name">Sleeping areas</h3>
+                </a>
+            </div>
+            <div class="howyou__category__wrapper">
+                <a href="#" class="howyou__category__position img_food">
+                    <h3 class="category__name">Pet food</h3>
+                </a>
+                <a href="#" class="howyou__category__position img_transp">
+                    <h3 class="category__name">Transportation</h3>
+                </a>
+                <a href="#" class="howyou__category__position img_toys">
+                    <h3 class="category__name">Toys</h3>
+                </a>
+                <a href="#" class="howyou__category__position img_bowls">
+                    <h3 class="category__name">Bowls and cups</h3>
+                </a>
+                <a href="#" class="howyou__category__position img_shampoo">
+                    <h3 class="category__name">Shampoos</h3>
+                </a>
+                <a href="#" class="howyou__category__position img_vitamin">
+                    <h3 class="category__name">Vitamins</h3>
+                </a>
+                <a href="#" class="howyou__category__position img_medicin">
+                    <h3 class="category__name">Medicines</h3>
+                </a>
+                <a href="#" class="howyou__category__position img_collars">
+                    <h3 class="category__name">Collars / leashes</h3>
+                </a>
+                <a href="#" class="howyou__category__position img_sleeping">
+                    <h3 class="category__name">Sleeping areas</h3>
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="youcan">
+    <div class="container youcan__style">
+        <img src="assets/images/donation-dog.png" alt="photo youcan" class="youcan__img">
+        <div class="youcan__wrapper">
+            <h2 class="youcan__title">You can also make a donation</h2>
+            <p class="youcan__context">Name of the bank / Type of bank account</p>
+            <a href="#" class="youcan__card">8380 2880 8028 8791 7435</a>
+            <p class="youcan__anotation">Legal information and lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Maecenas a ipsum at libero sagittis dignissim sed ac diam. Praesent ultrices maximus tortor et
+                vulputate. Interdum et malesuada fames ac ante ipsum primis in faucibus.</p>
+        </div>
+    </div>
+</section>
+<footer class="footer">
+    <div class="container footer__style">
+        <div class="footer__question">
+            <h2 class="question__title">For questions and suggestions</h2>
+            <a href="mailto:email@shelter.com" class="question__email">
+                <img src="assets/icons/mail.svg" alt="icon mail">
+                email@shelter.com</a>
+            <a href="tel:+136745677554" class="question__phone">
+                <img src="assets/icons/phone.svg" alt="icon phone">
+                +13 674 567 75 54</a>
+        </div>
+        <div class="footer__waiting">
+            <h2 class="waiting__title">We are waiting for your visit</h2>
+            <a href="https://g.page/grandsavoy_mogilev?share" target="_blank" class="address">
+                <img src="assets/icons/pin.svg" alt="icon pin">
+                1 Central Street, Boston (entrance from the store)</a>
+            <a href="https://g.page/grandsavoy_mogilev?share" target="_blank" class="address">
+                <img src="assets/icons/pin.svg" alt="icon pin">
+                18 South Park, London </a>
+        </div>
+    </div>
+</footer>
+<script src="scripts/menu.js"></script>
+<script src="scripts/slider.js"></script>
+</body>
+</html>
